@@ -1,0 +1,33 @@
+{
+  "name": "babysdayout",
+  "version": "1.0.0",
+  "description": "Startup project for connecting DayCare seekers to Stay-at-home parents willing to look after children",
+  "main": "index.js",
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "author": "Anujj Bubna",
+  "license": "ISC",
+  "dependencies": {
+    "craco": "^0.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^6.23.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -49,17 +49,25 @@
   .home-link {
     margin-right: var(--dl-space-space-tripleunit);
     text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
   }
   .home-link1 {
     margin-right: var(--dl-space-space-tripleunit);
     text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
   }
   .home-link2 {
     margin-right: var(--dl-space-space-tripleunit);
     text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
   }
   .home-link3 {
     text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
   }
   .home-cta-container {
     display: flex;
@@ -207,6 +215,11 @@
     flex-direction: row;
     padding-bottom: var(--dl-space-space-fiveunits);
     justify-content: space-between;
+    transition: 3s;
+  }
+  .home-hero:hover  {
+    background: rgb(255,196,246);
+    background: linear-gradient(132deg, rgba(255,196,246,1) 17%, rgba(185,244,255,1) 79%);
   }
   .home-hero-text-container {
     width: 35%;

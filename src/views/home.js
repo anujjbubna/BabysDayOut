@@ -20,23 +20,20 @@ class Home extends React.Component {
               <img alt="image" src="./default-img.svg" className="home-image" /> {/* fix the image */}
             </div>
             <div className="home-links-container">
-              <a href="#features" className="home-link Anchor">
-                features
-              </a>
-              <a href="#services" className="home-link1 Anchor">
-                services
+              <a href="#homediv" className="home-link Anchor">
+                Baby's Day Out
               </a>
               <a href="#about-us" className="home-link2 Anchor">
                 About Us
+              </a>
+              <a href="#services" className="home-link1 Anchor">
+                services
               </a>
               <a href="#contact" className="home-link3 Anchor">
                 contact
               </a>
             </div>
             <div className="home-cta-container">
-              {/* <button className="home-cta-btn button Anchor">
-                sTART BUILDING
-              </button> */}
               <div data-role="BurgerMenu" className="home-burger-menu">
                 <svg viewBox="0 0 1024 1024" className="home-icon">
                   <path d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"></path>
@@ -96,11 +93,11 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
-        <div className="home-hero">
+        <div className="home-hero" id="homediv">
           <div className="home-hero-text-container">
             <h1 className="home-heading Section-Heading">
               <span>
-                Start building your beautiful website.
+                The Vision
                 <span
                   dangerouslySetInnerHTML={{
                     __html: ' ',
@@ -108,20 +105,22 @@ class Home extends React.Component {
                 />
               </span>
               <br></br>
-              <span>It&apos;s free.</span>
+              
             </h1>
             <span className="home-text03 Section-Text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
-              odio. Praesent libero. Sed cursus ante dapibus diam.c Sed nisi.
-              Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
-              Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris
-              massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti
-              sociosqu ad litora torquent per conubia nostra, per inceptos
-              himenaeos.
+            Unlock the future of daycare and discover a new era of childcare that fits your life. 
+            Our digital platform connects you with trusted, 
+            local caregivers in your community, making daycare accessible, flexible, and transparent.
+            At BabysDayOut, we believe that access to quality child care is a cornerstone of a thriving community. 
+            Our mission is to bridge the gap between parents seeking affordable, reliable daycare and individuals
+             willing to provide loving care in their homes. Your child's safety is our top priority. 
+            We've implemented a multi-pronged safety approach, 
+            ensuring that all caregivers meet the highest standards of safety vetting, similar to 
+            licensed daycare facilities.
             </span>
-            <button className="home-cta-btn2 Anchor button">
-              START BUILDING
-            </button>
+            {/* <button className="home-cta-btn2 Anchor button">
+              START BUILDING 
+            </button> */}
           </div>
           <img
             alt="image"
@@ -180,7 +179,7 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
-        <div id="services" className="home-services">
+        {/* <div id="services" className="home-services">
           <div className="home-service-card">
             <div className="home-card-content">
               <h3 className="home-text09 BigCard-Heading">Service name</h3>
@@ -241,193 +240,26 @@ class Home extends React.Component {
               <button className="home-button3 button Anchor">READ MORE</button>
             </div>
           </div>
-        </div>
+        </div> */}
         <div id="about-us" className="home-about-us">
           <div className="home-heading-container1">
             <h2 className="home-text17 Section-Heading">
-              What&apos;s the story behind our product?
+              Our Story
             </h2>
             <span className="home-secondary-text Section-Text">
               {' '}
-              Lorem upsum dolor sit amet, consectetur adipiscing elit sed do
-              eiusmod.
-            </span>
-            <button className="home-cta-btn3 button Anchor">
-              START BUILDING
-            </button>
-          </div>
-          <div className="home-text-container">
-            <span className="home-text18 Section-Text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
-            </span>
-            <span className="home-text19 Section-Text">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-              eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-              qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-              sed quia non numquam eius modi tempora incidunt ut labore et dolore
-              magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
-              nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
-              aliquid ex ea commodi consequatur? Quis autem vel eum iure
-              reprehenderit qui in ea voluptate velit esse quam nihil molestiae
-              consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
-              pariatur?
+              Witnessing the challenges of expensive and hard-to-find daycare spots, 
+              our founders envisioned a solution that would not only address the immediate needs 
+              of parents but also offer substantial societal benefits. Our platform is designed 
+              to empower caregivers to offer registered and safe childcare, thereby creating jobs, 
+              supporting parents' transition back to work, and enhancing community health outcomes.
+              Our initiative is more than just a business; it's a movement towards improving social 
+              economics by creating jobs, enabling workforce participation, and fostering 
+              psychological well-being for caregivers and children alike. 
             </span>
           </div>
-          <button className="home-cta-btn4 button Anchor">START BUILDING</button>
         </div>
         <div className="home-section-separator1"></div>
-        <div className="home-testimonials">
-          <h2 className="home-text20 Section-Heading">
-            What are they saying about us?
-          </h2>
-          <div className="home-cards-container1">
-            <div className="home-testimonial-card">
-              <div className="home-card-heading">
-                <div className="home-name-and-position">
-                  <span className="Card-Heading">Will Evans</span>
-                  <span className="home-position Card-Text">Position</span>
-                </div>
-                <div className="home-stars-container">
-                  <svg
-                    viewBox="0 0 950.8571428571428 1024"
-                    className="home-icon10"
-                  >
-                    <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
-                  </svg>
-                  <svg
-                    viewBox="0 0 950.8571428571428 1024"
-                    className="home-icon12"
-                  >
-                    <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
-                  </svg>
-                  <svg
-                    viewBox="0 0 950.8571428571428 1024"
-                    className="home-icon14"
-                  >
-                    <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
-                  </svg>
-                  <svg
-                    viewBox="0 0 950.8571428571428 1024"
-                    className="home-icon16"
-                  >
-                    <path d="M649.714 573.714l174.857-169.714-241.143-35.429-108-218.286-108 218.286-241.143 35.429 174.857 169.714-41.714 240.571 216-113.714 215.429 113.714zM950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 15.429-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
-                  </svg>
-                  <svg
-                    viewBox="0 0 950.8571428571428 1024"
-                    className="home-icon18"
-                  >
-                    <path d="M649.714 573.714l174.857-169.714-241.143-35.429-108-218.286-108 218.286-241.143 35.429 174.857 169.714-41.714 240.571 216-113.714 215.429 113.714zM950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 15.429-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
-                  </svg>
-                </div>
-              </div>
-              <span className="home-text21 Card-Text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
-                nisi. Nulla quis sem at nibh elementum imperdiet.
-              </span>
-            </div>
-            <div className="home-testimonial-card1">
-              <div className="home-card-heading1">
-                <div className="home-name-and-position1">
-                  <span className="Card-Heading">Marie Alba</span>
-                  <span className="home-position1 Card-Text">Position</span>
-                </div>
-                <div className="home-stars-container1">
-                  <svg
-                    viewBox="0 0 950.8571428571428 1024"
-                    className="home-icon20"
-                  >
-                    <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
-                  </svg>
-                  <svg
-                    viewBox="0 0 950.8571428571428 1024"
-                    className="home-icon22"
-                  >
-                    <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
-                  </svg>
-                  <svg
-                    viewBox="0 0 950.8571428571428 1024"
-                    className="home-icon24"
-                  >
-                    <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
-                  </svg>
-                  <svg
-                    viewBox="0 0 950.8571428571428 1024"
-                    className="home-icon26"
-                  >
-                    <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
-                  </svg>
-                  <svg
-                    viewBox="0 0 950.8571428571428 1024"
-                    className="home-icon28"
-                  >
-                    <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
-                  </svg>
-                </div>
-              </div>
-              <span className="home-text22 Card-Text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
-                nisi. Nulla quis sem at nibh elementum imperdiet.
-              </span>
-            </div>
-            <div className="home-testimonial-card2">
-              <div className="home-card-heading2">
-                <div className="home-name-and-position2">
-                  <span className="Card-Heading">Taylor Sam</span>
-                  <span className="home-position2 Card-Text">Position</span>
-                </div>
-                <div className="home-stars-container2">
-                  <svg
-                    viewBox="0 0 950.8571428571428 1024"
-                    className="home-icon30"
-                  >
-                    <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
-                  </svg>
-                  <svg
-                    viewBox="0 0 950.8571428571428 1024"
-                    className="home-icon32"
-                  >
-                    <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
-                  </svg>
-                  <svg
-                    viewBox="0 0 950.8571428571428 1024"
-                    className="home-icon34"
-                  >
-                    <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
-                  </svg>
-                  <svg
-                    viewBox="0 0 950.8571428571428 1024"
-                    className="home-icon36"
-                  >
-                    <path d="M950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 14.857-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
-                  </svg>
-                  <svg
-                    viewBox="0 0 950.8571428571428 1024"
-                    className="home-icon38"
-                  >
-                    <path d="M649.714 573.714l174.857-169.714-241.143-35.429-108-218.286-108 218.286-241.143 35.429 174.857 169.714-41.714 240.571 216-113.714 215.429 113.714zM950.857 369.714c0 10.286-7.429 20-14.857 27.429l-207.429 202.286 49.143 285.714c0.571 4 0.571 7.429 0.571 11.429 0 15.429-6.857 28.571-23.429 28.571-8 0-16-2.857-22.857-6.857l-256.571-134.857-256.571 134.857c-7.429 4-14.857 6.857-22.857 6.857-16.571 0-24-13.714-24-28.571 0-4 0.571-7.429 1.143-11.429l49.143-285.714-208-202.286c-6.857-7.429-14.286-17.143-14.286-27.429 0-17.143 17.714-24 32-26.286l286.857-41.714 128.571-260c5.143-10.857 14.857-23.429 28-23.429s22.857 12.571 28 23.429l128.571 260 286.857 41.714c13.714 2.286 32 9.143 32 26.286z"></path>
-                  </svg>
-                </div>
-              </div>
-              <span className="home-text23 Card-Text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
-                nisi. Nulla quis sem at nibh elementum imperdiet.
-              </span>
-            </div>
-          </div>
-        </div>
         <div id="contact" className="home-contact">
           <div className="home-content-container">
             <h2 className="home-text24 Section-Heading">
@@ -495,7 +327,7 @@ class Home extends React.Component {
               </svg>
             </div>
           </div>
-          <img alt="image" src="/default-img.svg" className="home-image6" />
+          {/* <img alt="image" src="/default-img.svg" className="home-image6" /> */}
         </div>
       </div>
     )

@@ -7,7 +7,7 @@ import {
   Redirect,
 } from 'react-router-dom'
 
-import './style.css'
+import './index.css'
 import Home from './views/home'
 import NotFound from './views/not-found'
 
@@ -15,3 +15,5 @@ ReactDOM.render(
     <Home />,
   document.getElementById('root')
 );
+
+// TODO: route to Not found based on url requested

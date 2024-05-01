@@ -7,7 +7,7 @@ class Vision extends React.Component {
                 <div className="home-hero-text-container">
                     <h1 className="home-heading Section-Heading">
                         <span>
-                            The Vision
+                            Our Vision
                             <span
                                 dangerouslySetInnerHTML={{
                                     __html: ' ',

@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -10,8 +9,6 @@ import Vision from './components/vision'
 import Services from './components/services'
 import About from './components/about'
 import Contact from './components/contact'
-
-console.log("rendering homepage");
 
 class Home extends React.Component {
 

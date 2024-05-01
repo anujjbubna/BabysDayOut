@@ -221,6 +221,15 @@
     background: rgb(255,196,246);
     background: linear-gradient(132deg, rgba(255,196,246,1) 17%, rgba(185,244,255,1) 79%);
   }
+  .home-hero-img {
+    background: cover; 
+    background-image: url('/public/images/hero_bg.jpg');
+    background-position: center; 
+    height: full;
+    width: full;
+    background: no-repeat;
+    /* bg-no-repeat h-full w-full */
+  }
   .home-hero-text-container {
     width: 35%;
     display: flex;

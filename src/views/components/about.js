@@ -6,7 +6,7 @@ class About extends React.Component {
             <div id="about-us" className="home-about-us">
                 <div className="home-heading-container1">
                     <h2 className="home-text17 Section-Heading">
-                        Our Story
+                        Who are we?
                     </h2>
                     <span className="home-secondary-text Section-Text">
                         {' '}

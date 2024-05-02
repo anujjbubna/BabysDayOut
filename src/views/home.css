@@ -16,7 +16,8 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background-color: var(--dl-color-gray-white);
+    /* background-color: var(--dl-color-gray-white); */
+    background-color: white;
   }
   .home-navbar {
     width: 100%;

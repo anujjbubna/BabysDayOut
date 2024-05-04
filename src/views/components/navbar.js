@@ -79,18 +79,19 @@ class Navbar extends React.Component {
             //         </div> */}
             //     </div>
             // </div>
-            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-                <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <div className="flex p-5 flex-col md:flex-row items-center 
+                        fixed w-screen float-left">
+                <a className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
                     BabysDayOut
                     {/* <img src={logo} className="w-100 h-10 mr-2" alt="Logo" /> */}
                 </a>
                 {/* add hrefs to the buttons below */}
-                <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-                    <a class="text-base mr-5 hover:text-red-400">Home</a>
-                    <a class="text-base mr-5 hover:text-red-400">Our Vision</a>
-                    <a class="text-base mr-5 hover:text-red-400">Services</a>
-                    <a class="text-base mr-5 hover:text-red-400">About Us</a>
-                    <a class="text-base mr-5 hover:text-red-400">Contact Us</a>
+                <nav className="md:ml-auto flex flex-wrap items-center text-white justify-center">
+                    <a className="text-base mr-5 hover:text-red-300">Home</a>
+                    {/* <a className="text-base mr-5 hover:text-red-400">Our Vision</a> */}
+                    <a className="text-base mr-5 hover:text-blue-400">Services</a>
+                    <a className="text-base mr-5 hover:text-red-300">About Us</a>
+                    <a className="text-base mr-5 hover:text-blue-400">Contact Us</a>
                 </nav>
                 {/* <div className='flex mt-4 md:mt-0'>
                     <img className='pr-4' src={search} />

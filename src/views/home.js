@@ -25,11 +25,12 @@ class Home extends React.Component {
         {/* Will add Vision to another page */}
         {/* <Vision></Vision> 
         <div className="home-section-separator"></div> */}
+        
         <Services></Services>
         <div className="home-section-separator"></div>
-        <About></About>
+        {/* <About></About>
         <div className="home-section-separator"></div>
-        <Contact></Contact>
+        <Contact></Contact> */}
         
         {/* <div id="services" className="home-services">
           <div className="home-service-card">

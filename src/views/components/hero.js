@@ -3,7 +3,7 @@ import React from 'react';
 class Hero extends React.Component {
     render() {
         return (
-            <div className='page w-screen h-screen'>
+            <div id="home" className='page w-screen h-screen'>
                 {/* <div className="bg-cover bg-[url('/images/hero_bg.jpg')] bg-center bg-no-repeat h-full w-full" > */}
                 <div className="bg-cover bg-[url('/images/hero2.jpg')] bg-center bg-no-repeat h-full w-full" >
                     <div className="container mx-auto flex flex-col my-auto align-middle h-full" >

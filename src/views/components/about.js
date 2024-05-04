@@ -18,6 +18,14 @@ class About extends React.Component {
                         Our initiative is more than just a business; it's a movement towards improving social
                         economics by creating jobs, enabling workforce participation, and fostering
                         psychological well-being for caregivers and children alike.
+
+                        At BabysDayOut, we believe that access to quality child care is a cornerstone of a thriving community.
+                        Our mission is to bridge the gap between parents seeking affordable, reliable daycare and individuals
+                        willing to provide loving care in their homes. Your child's safety is our top priority.
+                        We've implemented a multi-pronged safety approach,
+                        ensuring that all caregivers meet the highest standards of safety vetting, similar to
+                        licensed daycare facilities.
+
                     </span>
                 </div>
             </div>

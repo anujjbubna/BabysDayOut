@@ -80,7 +80,7 @@ class Navbar extends React.Component {
             //     </div>
             // </div>
             <div className="flex p-5 flex-col md:flex-row items-center 
-                        fixed w-screen float-left drop-shadow-xl">
+                        fixed w-screen drop-shadow-xl">
                 <a className="flex text-xl title-font font-medium items-center text-white mb-4 ml-4 md:mb-0">
                     BabysDayOut
                     {/* <img src={logo} className="w-100 h-10 mr-2" alt="Logo" /> */}

@@ -29,8 +29,8 @@ class Home extends React.Component {
         <Product></Product>
         <Features></Features>
         {/* <div className="home-section-separator"></div> */}
-        {/* <About></About>
-        <Contact></Contact> */}
+        {/* <About></About> */}
+        {/* <Contact></Contact> */}
       </div>
     )
   }

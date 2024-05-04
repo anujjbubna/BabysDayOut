@@ -3,9 +3,9 @@ import React from "react";
 class Vision extends React.Component {
     render () {
         return (
-            <div className="home-hero" id="homediv">
-                <div className="home-hero-text-container">
-                    <h1 className="home-heading Section-Heading">
+            <div id="vision" className="w-screen h-[calc(100vh-5rem)] ">
+                <div className="bg-cover bg-center bg-no-repeat h-full w-full">
+                    <h1 className="text-4xl">
                         <span>
                             Our Vision
                             <span
@@ -15,7 +15,6 @@ class Vision extends React.Component {
                             />
                         </span>
                         <br></br>
-
                     </h1>
                     <span className="home-text03 Section-Text">
                         Unlock the future of daycare and discover a new era of childcare that fits your life.
@@ -29,11 +28,6 @@ class Vision extends React.Component {
                         licensed daycare facilities.
                     </span>
                 </div>
-                <img
-                    alt="image"
-                    src="https://images.unsplash.com/photo-1619314528204-59477dba78d2?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=1000"
-                    className="home-image2"
-                />
             </div>
         )
     }

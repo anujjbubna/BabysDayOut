@@ -22,8 +22,9 @@ class Home extends React.Component {
         <Navbar></Navbar>
         <Hero></Hero>
         <div className="home-section-separator"></div>
-        <Vision></Vision>
-        <div className="home-section-separator"></div>
+        {/* Will add Vision to another page */}
+        {/* <Vision></Vision> 
+        <div className="home-section-separator"></div> */}
         <Services></Services>
         <div className="home-section-separator"></div>
         <About></About>

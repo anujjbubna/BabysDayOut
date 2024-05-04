@@ -4,4 +4,5 @@ Startup project for connecting DayCare seekers to Stay-at-home parents willing t
 
 # TODOs
 - add hrefs to navbar items
-- move common tailwind css from classnames to home.css
+- find better fonts
+- add flip animation to the perks section cards and add more info there OR add a pop up when they select read more

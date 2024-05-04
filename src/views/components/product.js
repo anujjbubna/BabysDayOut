@@ -1,6 +1,6 @@
 import React from "react";
 
-class Vision extends React.Component {
+class Product extends React.Component {
     render () {
         return (
             <div id="vision" className="w-screen h-[calc(100vh-5rem)] ">
@@ -33,4 +33,4 @@ class Vision extends React.Component {
     }
 }
 
-export default Vision;
+export default Product;

@@ -7,8 +7,9 @@ module.exports = {
    theme: {
      extend: {
       colors: {
-        'baby-pink': '#CF91B5',
+        'baby-pink': '#E6A6C6',
         'baby-blue': '#89CFF0',
+        'pastel-yellow': 'FDFD96',
       }
      },
    },

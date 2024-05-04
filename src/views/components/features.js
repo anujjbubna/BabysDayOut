@@ -1,11 +1,11 @@
 import React from "react";
 
-class Services extends React.Component {
+class Features extends React.Component {
     render() {
         return (
-            <div id="features" className="w-screen h-[calc(100vh-5rem)]">
+            <div id="features" className="page w-screen h-screen">
                 {/* <div className="h-full w-full bg-gradient-to-r from-blue-200 to-red-200"> */}
-                <div className="h-full w-full bg-baby-blue">
+                <div className="h-full w-full bg-baby-pink">
                     {/* <div className="flex justify-center py-10 w-full">
                         <div className="flex">
                             <img src="/images/perk.jpeg" className="w-15"></img>
@@ -14,17 +14,17 @@ class Services extends React.Component {
                             <h2 className="text-4xl">we offer</h2>
                         </div>
                     </div> */}
-                    <h2 className="text-4xl font-semibold text-center pt-16 pb-8 text-white">Perks we offer</h2>
-                    <div className="grid justify-items-center grid-cols-2 auto-cols-auto h-4/5 px-8">
-                        <div className="flex items-center flex-col w-full py-10 mr-4 rounded-xl text-white
-                                        bg-cover bg-[url('/images/hero2.jpg')] bg-center bg-no-repeat">
-                            {/* <img
+                    <h2 className="text-4xl font-semibold text-center pt-16 pb-8 text-white drop-shadow-xl">Perks we offer</h2>
+                    <div className="grid justify-items-center grid-cols-2 auto-cols-auto h-4/5 mx-8">
+                        <div className="grid justify-items-center grid-cols-2 ml-8 mr-4 rounded-xl text-slate-600
+                                       border-2 border-slate-100 bg-slate-100 hover:drop-shadow-xl">
+                            <img
                                 alt="image"
-                                src="https://images.unsplash.com/photo-1619548683455-23b17c3ddc30?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
-                                className="w-32"
-                            /> */}
-                            <span className="text-3xl mb-3 pt-24 pb-8">Parents & Children </span>
+                                src="/images/parentchild.jpg"
+                                className="w-full h-full rounded-l-xl"
+                            />
                             <div className="text-lg  px-5 text-center flex flex-col space-y-5">
+                            <span className="text-3xl mb-3 pt-24 pb-8">For Parents & Children </span>
                                 <span className="">
                                     - Standard govt inspection for caregiver
                                     <br></br>
@@ -53,17 +53,21 @@ class Services extends React.Component {
                                     - Messaging tool
                                     <br></br>
                                 </span>
+                                <span className="">
+                                    - Integrated payment system
+                                    <br></br>
+                                </span>
                             </div>
                         </div>
-                        <div className="flex items-center flex-col w-full py-10 ml-4 rounded-xl text-white
-                                        bg-cover bg-[url('/images/hero2.jpg')] bg-center bg-no-repea">
-                            {/* <img
+                        <div className="grid justify-items-center grid-cols-2 ml-4 mr-4 rounded-xl text-slate-600
+                                        border-2 border-slate-100 bg-slate-100 hover:drop-shadow-xl">
+                            <img
                                 alt="image"
-                                src="https://images.unsplash.com/photo-1619547871672-b6562e042c1e?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
-                                className="w-32"
-                            /> */}
-                            <span className="text-4xl mb-3 pb-8 pt-24">Caregiver</span>
+                                src="/images/nanny.jpg"
+                                className="w-full h-full rounded-l-xl"
+                            />
                             <div className="text-lg px-5 text-center flex flex-col space-y-8">
+                            <span className="text-4xl mb-3 pb-8 pt-24">For Caregiver</span>
                                 <span className="">
                                     - Standard government inspection
                                     <br></br>
@@ -82,6 +86,10 @@ class Services extends React.Component {
                                 </span>
                                 <span className="">
                                     - Messaging tool
+                                    <br></br>
+                                </span>
+                                <span className="">
+                                    - Integrated payment system
                                     <br></br>
                                 </span>
                             </div>
@@ -106,4 +114,4 @@ class Services extends React.Component {
     }
 }
 
-export default Services;
+export default Features;

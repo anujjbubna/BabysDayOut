@@ -80,18 +80,19 @@ class Navbar extends React.Component {
             //     </div>
             // </div>
             <div className="flex p-5 flex-col md:flex-row items-center 
-                        fixed w-screen float-left">
-                <a className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+                        fixed w-screen float-left drop-shadow-xl">
+                <a className="flex text-xl title-font font-medium items-center text-white mb-4 ml-4 md:mb-0">
                     BabysDayOut
                     {/* <img src={logo} className="w-100 h-10 mr-2" alt="Logo" /> */}
                 </a>
                 {/* add hrefs to the buttons below */}
-                <nav className="md:ml-auto flex flex-wrap items-center text-white justify-center">
+                <nav className="md:ml-auto flex flex-wrap items-center mr-4
+                              text-white justify-center font-medium">
                     <a className="text-base mr-5 hover:text-red-300">Home</a>
-                    {/* <a className="text-base mr-5 hover:text-red-400">Our Vision</a> */}
-                    <a className="text-base mr-5 hover:text-blue-400">Services</a>
-                    <a className="text-base mr-5 hover:text-red-300">About Us</a>
-                    <a className="text-base mr-5 hover:text-blue-400">Contact Us</a>
+                    <a className="text-base mr-5 hover:text-blue-400">Product</a>
+                    <a className="text-base mr-5 hover:text-red-300">Features</a>
+                    <a className="text-base mr-5 hover:text-blue-400">About Us</a>
+                    <a className="text-base mr-5 hover:text-red-300">Contact Us</a>
                 </nav>
                 {/* <div className='flex mt-4 md:mt-0'>
                     <img className='pr-4' src={search} />

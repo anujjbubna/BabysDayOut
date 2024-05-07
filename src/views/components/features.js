@@ -3,10 +3,10 @@ import React from "react";
 class Features extends React.Component {
     render() {
         return (
-            <div id="features" className="w-screen h-screen bg-baby-pink">
+            <div id="features" className="w-full h-screen bg-baby-pink snap-start shrink-0 snap-always ">
                 {/* <div className="h-full w-full bg-gradient-to-r from-blue-200 to-red-200"> */}
-                <div className="h-full w-full ">
-                    <h1 className="text-7xl text-center pt-28 pb-8 text-white drop-shadow-xl">Perks we offer</h1>
+                <div className="h-full w-full pt-24">
+                    <h1 className="text-7xl text-center pb-8 text-white drop-shadow-xl">Perks we offer</h1>
                     <p className="w-full pt-4 text-center italic drop-shadow-xl text-white">Other than chocolates, of course :P</p>
                     <div className="grid justify-items-center grid-cols-2 auto-cols-auto h-3/5 ml-8 mr-14 mt-16">
                         <div className="grid justify-items-center grid-cols-2 ml-8 mr-4 rounded-xl text-slate-600

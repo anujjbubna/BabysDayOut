@@ -1,8 +1,4 @@
 .home-container {
-  scroll-snap-type: y mandatory;
   overflow-y: scroll;
   overflow: hidden;
-}
-.page {
-  scroll-snap-align: center;
 }

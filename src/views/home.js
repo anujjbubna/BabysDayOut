@@ -16,11 +16,11 @@ class Home extends React.Component {
 
   render() { 
     return (
-      <div className="home-container">
-        <Helmet>
+      <div className="snap-y snap-proximity home-container box-border w-full mx-auto ">
+        {/* <Helmet>
           <title>BabysDayOut</title>
           <meta property="og:title" content="BabysDayOut" />
-        </Helmet>
+        </Helmet> */}
         <Navbar></Navbar>
         <Hero></Hero>
         {/* Will add Vision to another page */}

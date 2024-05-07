@@ -4,5 +4,5 @@
   overflow: hidden;
 }
 .page {
-  scroll-snap-align: start;
+  scroll-snap-align: center;
 }

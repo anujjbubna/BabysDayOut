@@ -88,11 +88,11 @@ class Navbar extends React.Component {
                 {/* add hrefs to the buttons below */}
                 <nav className="md:ml-auto flex flex-wrap items-center mr-4
                               text-white justify-center font-medium">
-                    <a className="text-base mr-5 hover:text-red-300">Home</a>
-                    <a className="text-base mr-5 hover:text-blue-400">Product</a>
-                    <a className="text-base mr-5 hover:text-red-300">Features</a>
-                    <a className="text-base mr-5 hover:text-blue-400">About Us</a>
-                    <a className="text-base mr-5 hover:text-red-300">Contact Us</a>
+                    <a className="text-base mr-5 hover:text-red-300 hover:ease-in-out duration-300">Home</a>
+                    <a className="text-base mr-5 hover:text-blue-400 hover:ease-in-out duration-300">Product</a>
+                    <a className="text-base mr-5 hover:text-red-300 hover:ease-in-out duration-300">Features</a>
+                    <a className="text-base mr-5 hover:text-blue-400 hover:ease-in-out duration-300">About Us</a>
+                    <a className="text-base mr-5 hover:text-red-300 hover:ease-in-out duration-300">Contact Us</a>
                 </nav>
                 {/* <div className='flex mt-4 md:mt-0'>
                     <img className='pr-4' src={search} />

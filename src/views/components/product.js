@@ -6,25 +6,20 @@ class Product extends React.Component {
             <div id="product" className="w-screen h-screen text-white bg-baby-blue">
                 <div className="w-full h-full">
                     <h1 className="text-7xl text-center pt-28 pb-8 text-white drop-shadow-xl">So what is BabysDayOut?</h1>
-                    <p className="w-full pt-4 text-center italic drop-shadow-xl">It is the future of daycare... and even the children.</p>
+                    <p className="w-full pt-4 text-center italic drop-shadow-xl text-white">It is the future of daycare... and even the children.</p>
                     <div className="grid grid-cols-2 mt-16 justify-items-center w-full bg-white drop-shadow-xl">
-                        {/* <div></div> */}
-                        <p className="text-center text-2xl leading-extra-loose px-10 w-4/5 py-14 text-slate-700">
+                        <p className="text-center text-2xl leading-extra-loose pr-10 pl-16 w-4/5 py-14 text-slate-700">
                             BabysDayOut is an opportunity to revolutionize the childcare system by utiziling
                             already available infrastructure.
                             Our digital platform connects parents with trusted, local caregivers
                             in the community willing to host and look after children in the
                             perimeter & safety of their own homes.
-                            {/* making daycare accessible, flexible, and transparent. */}
-                            {/* This means no more never-ending waitlists, no long commutes for pick-up/drop-off,
-                            and no career sacrifices.  */}
                         </p>
                         {/* <p>
                             
                         </p> */}
                         <ul className="text-slate-800 text-xl leading-extra-loose
                                         py-14">
-                            {/* Add cross symbol and remove NOs */}
                             <li>
                                 <div className="inline-block">
                                     <img src="/images/check-mark.png"
@@ -58,7 +53,7 @@ class Product extends React.Component {
                                 <div className="inline-block">
                                     <img src="/images/close.png"
                                         className="w-4 float-left py-3 mx-3" />
-                                    Long community for pick-up/drop-off
+                                    Long commute for pick-up/drop-off
                                 </div>
                             </li>
                             <li>
@@ -69,6 +64,14 @@ class Product extends React.Component {
                                 </div>
                             </li>
                         </ul>
+                    </div>
+                    <div className="flex justify-center w-3/10 pt-16
+                                     text-xl hover:text-2xl hover:ease-in-out duration-300">
+                        <p className="float-left pl-4 py-1 text-slate-700 font-medium drop-shadow-xl">Interested parents and caregivers, waitlist today!</p>
+                        <a href="https://shorturl.at/lpzX1" target="_blank"><button className="bg-slate-700 float-right px-3 ml-4 py-1
+                                        rounded drop-shadow-xl">
+                            Register
+                        </button></a>
                     </div>
                 </div>
             </div>

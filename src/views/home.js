@@ -30,7 +30,7 @@ class Home extends React.Component {
         <Features></Features>
         {/* <div className="home-section-separator"></div> */}
         {/* <About></About> */}
-        {/* <Contact></Contact> */}
+        <Contact></Contact>
       </div>
     )
   }

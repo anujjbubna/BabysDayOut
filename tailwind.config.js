@@ -9,7 +9,8 @@ module.exports = {
       colors: {
         'baby-pink': '#ffbfd7',
         'baby-blue': '#89CFF0',
-        'pastel-yellow': 'FDFD96',
+        'pastel-green': '#b4d3b2',
+        'olive-green': '#284326'
       },
       lineHeight: {
         'extra-loose': '2.125',

@@ -3,10 +3,10 @@ import React from "react";
 class Product extends React.Component {
     render() {
         return (
-            <div id="product" className="box-border w-screen h-screen text-white bg-baby-blue snap-start shrink-0 snap-always">
+            <div id="product" className="box-border w-screen h-screen text-white bg-baby-pink snap-start shrink-0 snap-always">
                 <div className="w-full h-full pt-28">
-                    <h1 className="text-7xl text-center pb-8 text-white drop-shadow-xl">So what is BabysDayOut?</h1>
-                    <p className="w-full pt-4 text-center italic drop-shadow-xl text-white">It is the future of daycare... and even the children.</p>
+                    <h1 className="text-7xl text-center pb-8 text-slate-700 drop-shadow-xl">So what is BabysDayOut?</h1>
+                    <p className="w-full pt-4 text-center italic drop-shadow-xl text-slate-800">It is the future of daycare... and even the children.</p>
                     <div className="grid grid-cols-2 mt-16 justify-items-center w-full bg-white drop-shadow-xl">
                         <p className="text-center text-2xl leading-extra-loose pr-10 pl-16 w-4/5 py-14 text-slate-700">
                             BabysDayOut is an opportunity to revolutionize the childcare system by utiziling

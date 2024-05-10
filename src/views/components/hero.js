@@ -11,8 +11,8 @@ class Hero extends React.Component {
                             <h1 className="text-7xl mb-4">Trouble finding quick, cheap and reliable daycare?</h1>
                             <p className="text-2xl mb-8">We gotchu! Introducing BabysDayOut, a platform to search for registered childcare providers.</p>
                             <div className='flex items-center'>
-                                <button className='rounded px-10 py-3 text-white bg-baby-pink 
-                                                hover:bg-baby-blue hover:ease-in-out duration-300'>Learn More</button>
+                                <a href="#product" className='rounded px-10 py-3 text-white bg-baby-blue 
+                                                hover:bg-baby-pink hover:ease-in-out duration-300'>Learn More</a>
                             </div>
                         </div>
                     </div >

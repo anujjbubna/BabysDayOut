@@ -3,8 +3,7 @@ import React from "react";
 class Features extends React.Component {
     render() {
         return (
-            <div id="features" className="w-full h-screen bg-baby-pink snap-start shrink-0 snap-always pb-48">
-                {/* <div className="h-full w-full bg-gradient-to-r from-blue-200 to-red-200"> */}
+            <div id="features" className="w-full h-screen bg-baby-blue snap-start shrink-0 snap-always pb-48">
                 <div className="h-full w-full pt-24">
                     <h1 className="text-7xl text-center pb-8 text-white drop-shadow-xl">Perks we offer</h1>
                     <p className="w-full pt-4 text-center italic drop-shadow-xl text-white">Other than chocolates, of course :P</p>

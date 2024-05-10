@@ -16,7 +16,7 @@ class Navbar extends React.Component {
                     <a href="#product" className="text-base mr-5 hover:text-blue-400 hover:ease-in-out duration-300">Product</a>
                     <a href="#features" className="text-base mr-5 hover:text-red-300 hover:ease-in-out duration-300">Features</a>
                     {/* <a className="text-base mr-5 hover:text-blue-400 hover:ease-in-out duration-300">About Us</a> */}
-                    <a className="text-base mr-5 hover:text-blue-400 hover:ease-in-out duration-300">Contact Us</a>
+                    <a href="#contact" className="text-base mr-5 hover:text-blue-400 hover:ease-in-out duration-300">Contact Us</a>
                 </nav>
             </div>
         )

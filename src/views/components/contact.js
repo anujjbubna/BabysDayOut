@@ -3,7 +3,7 @@ import React from "react";
 class Contact extends React.Component {
     render() {
         return (
-            <div className="w-screen py-20">
+            <div id="contact" className="w-screen py-20">
                 <div>
                 <h2>Contact Us</h2>
                 <form action="#" method="post">

@@ -17,38 +17,36 @@ class Features extends React.Component {
                                 src="/images/parentchild.jpg"
                                 className="w-full h-full rounded-l-lg"
                             />
-                            <div className="text-xl px-5 text-center flex flex-col space-y-4">
-                                <span className="text-3xl mb-3 pt-12 pb-8">For Parents & Children </span>
-                                <span className="">
-                                    - Standard government inspection <br></br> for caregivers
+                            <div className="text-xl px-5 text-left flex flex-col space-y-4 pb-8">
+                                <span className="text-3xl mb-3 pt-12 pb-8 text-center">For Parents & Children </span>
+                                <span className="grid grid-flow-col auto-cols-auto">
+                                    <img src="/images/bricks.png" className="h-6 w-6 ml-1 mr-4 mt-3"></img> 
+                                    <span className="">Standard government inspection for caregivers</span>
                                     <br></br>
                                 </span>
-                                <span className="">
-                                    - Meet the caregiver before
+                                <span className="grid grid-flow-col auto-cols-auto">
+                                    <img src="/images/bricks.png" className="h-6 w-6 ml-1 mr-4 mt-1"></img> 
+                                    <span className="pr-1">Meet the caregiver before</span>
                                     <br></br>
                                 </span>
-                                <span className="">
-                                    - Search for caregivers based on location, price, ratings, etc.
+                                <span className="grid grid-flow-col auto-cols-auto">
+                                    <img src="/images/bricks.png" className="h-6 w-6 ml-1 mr-4 mt-3"></img> 
+                                    <span className="pr-1">Filters include location, price, and ratings </span>
                                     <br></br>
                                 </span>
-                                <span className="">
-                                    - Seemless appointment booking
+                                <span className="grid grid-flow-col auto-cols-auto">
+                                    <img src="/images/bricks.png" className="h-6 w-6 ml-1 mr-4 mt-3"></img> 
+                                    <span className="pr-1">Seemless appointment booking</span>
                                     <br></br>
                                 </span>
-                                <span className="">
-                                    - Daily, weekly, or monthly plans
+                                <span className="grid grid-flow-col auto-cols-auto">
+                                    <img src="/images/bricks.png" className="h-6 w-6 ml-1 mr-4 mt-3"></img> 
+                                    <span className="pr-1">Daily, weekly, or monthly plans</span>
                                     <br></br>
                                 </span>
-                                <span className="">
-                                    - Multiple children management
-                                    <br></br>
-                                </span>
-                                <span className="">
-                                    - Messaging tool
-                                    <br></br>
-                                </span>
-                                <span className="">
-                                    - Integrated payment system
+                                <span className="grid grid-flow-col auto-cols-auto">
+                                    <img src="/images/bricks.png" className="h-6 w-6 ml-1 mr-4 mt-3"></img> 
+                                    <span className="pr-1">Integrated payments system</span>
                                     <br></br>
                                 </span>
                             </div>
@@ -58,33 +56,39 @@ class Features extends React.Component {
                                         hover:drop-shadow-xl">
                             <img
                                 alt="image"
-                                src="/images/nanny.jpg"
-                                className="w-full h-full rounded-l-lg"
+                                src="/images/provider.jpg"
+                                className="w-full h-full rounded-l-lg object-cover"
                             />
-                            <div className="text-xl px-5 text-center flex flex-col space-y-8">
-                                <span className="text-3xl mb-3 pb-8 pt-12">For Caregiver</span>
-                                <span className="">
-                                    - Standard government inspection
+                            <div className="text-xl px-5 pr-10 flex flex-col space-y-5 pt-5 pb-8">
+                                <span className="text-3xl text-center mb-3 pb-6 pt-12">For Caregiver</span>
+                                <span className="grid grid-flow-col auto-cols-auto">
+                                    <img src="/images/bricks.png" className="h-6 w-6 ml-1 mr-4 mt-3"></img> 
+                                    <span className="pr-1">Standard government inspection</span>
                                     <br></br>
                                 </span>
-                                <span className="">
-                                    - Onboarding & registration support
+                                <span className="grid grid-flow-col auto-cols-auto">
+                                    <img src="/images/bricks.png" className="h-6 w-6 ml-1 mr-4 mt-3"></img> 
+                                    <span className="pr-1">Onboarding & registration support</span>
                                     <br></br>
                                 </span>
-                                <span className="">
-                                    - Daily, weekly, or monthly plans
+                                <span className="grid grid-flow-col auto-cols-auto">
+                                    <img src="/images/bricks.png" className="h-6 w-6 ml-1 mr-4 mt-3"></img> 
+                                    <span className="pr-1">Daily, weekly, or monthly plans</span>
                                     <br></br>
                                 </span>
-                                <span className="">
-                                    - Calendar and Income management
+                                <span className="grid grid-flow-col auto-cols-auto">
+                                    <img src="/images/bricks.png" className="h-6 w-6 ml-1 mt-3"></img> 
+                                    <span className="pr-1 pl-4">Calendar and Income management</span>
                                     <br></br>
                                 </span>
-                                <span className="">
-                                    - Messaging tool
+                                <span className="grid grid-flow-col auto-cols-auto">
+                                    <img src="/images/bricks.png" className="h-6 w-6 ml-1 mt-1"></img> 
+                                    <span className="pr-6 pl-2">In-built messaging tool</span>
                                     <br></br>
                                 </span>
-                                <span className="">
-                                    - Integrated payment system
+                                <span className="grid grid-flow-col auto-cols-auto">
+                                    <img src="/images/bricks.png" className="h-6 w-6 ml-1 mt-3"></img> 
+                                    <span className="pr-1 pl-4">Integrated payment system</span>
                                     <br></br>
                                 </span>
                             </div>

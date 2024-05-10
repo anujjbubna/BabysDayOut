@@ -3,7 +3,7 @@ import React from "react";
 class Features extends React.Component {
     render() {
         return (
-            <div id="features" className="w-full h-screen bg-baby-pink snap-start shrink-0 snap-always ">
+            <div id="features" className="w-full h-screen bg-baby-pink snap-start shrink-0 snap-always pb-48">
                 {/* <div className="h-full w-full bg-gradient-to-r from-blue-200 to-red-200"> */}
                 <div className="h-full w-full pt-24">
                     <h1 className="text-7xl text-center pb-8 text-white drop-shadow-xl">Perks we offer</h1>
@@ -18,7 +18,7 @@ class Features extends React.Component {
                                 className="w-full h-full rounded-l-lg"
                             />
                             <div className="text-xl px-5 text-center flex flex-col space-y-4">
-                            <span className="text-3xl mb-3 pt-12 pb-8">For Parents & Children </span>
+                                <span className="text-3xl mb-3 pt-12 pb-8">For Parents & Children </span>
                                 <span className="">
                                     - Standard government inspection <br></br> for caregivers
                                     <br></br>
@@ -62,7 +62,7 @@ class Features extends React.Component {
                                 className="w-full h-full rounded-l-lg"
                             />
                             <div className="text-xl px-5 text-center flex flex-col space-y-8">
-                            <span className="text-4xl mb-3 pb-8 pt-12">For Caregiver</span>
+                                <span className="text-3xl mb-3 pb-8 pt-12">For Caregiver</span>
                                 <span className="">
                                     - Standard government inspection
                                     <br></br>

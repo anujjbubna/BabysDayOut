@@ -7,8 +7,9 @@ Startup project for connecting DayCare seekers to Stay-at-home parents willing t
 
 
 # TODOs
+- make page responsive to dif screen sizes
+- add JS to send us an email + to check for email input only 
 - host the website
-- make page responsive to diff screen sizes
 - add google analytics for visitor data
 - find better fonts
 - add flip animation to the perks section cards and add more info there OR add a pop up when they select read more

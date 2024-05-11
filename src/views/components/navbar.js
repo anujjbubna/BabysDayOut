@@ -5,7 +5,8 @@ class Navbar extends React.Component {
         return (
             <div className="flex p-5 flex-col md:flex-row items-center 
                         fixed w-screen drop-shadow-xl z-[1]">
-                <a className="flex text-3xl title-font font-medium items-center text-white mb-4 ml-4 md:mb-0">
+                <a className="flex text-3xl title-font font-medium items-center text-white mb-4 ml-4 md:mb-0 drop-shadow-lg"
+                href="#home">
                     BabysDayOut
                     {/* <img src={logo} className="w-100 h-10 mr-2" alt="Logo" /> */}
                 </a>

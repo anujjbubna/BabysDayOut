@@ -36,7 +36,7 @@ class Product extends React.Component {
                                 </div>
 
                             </div>
-                            <div className="w-3/4 mx-auto justify-items-center xl:space-y-5 2xl:space-y-3 md:space-y-2 xl:pt-8 2xl:pt-2 space-y-5">
+                            <div className="w-3/4 mx-auto justify-items-center xl:space-y-5 2xl:space-y-3 md:space-y-2 xl:pt-8 2xl:pt-2 sm:space-y-5 space-y-2">
                                 <div className="inline-block">
                                     <img src="/images/close.png"
                                         className="w-4 float-left lg:py-2 py-1 mx-3" />

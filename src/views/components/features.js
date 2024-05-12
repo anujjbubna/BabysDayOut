@@ -18,7 +18,7 @@ class Features extends React.Component {
             <div
               className="grid justify-items-center grid-cols-1 lg:grid-cols-2 grid-flow-row lg:grid-rows-1 sm:ml-8 sm:mr-4 rounded-xl text-slate-600
                                        border-2 border-slate-400 bg-slate-100 drop-shadow-md auto-rows-auto
-                                       hover:drop-shadow-xl xl:h-5/6 md:h-full h-5/6 sm:h-2/3 sm:pb-48 sm:mt-4 md:pb-0 pb-44"
+                                       hover:drop-shadow-xl xl:h-5/6 md:h-full h-4/5 sm:h-2/3 sm:pb-48 sm:mt-4 md:pb-0 pb-44"
             >
               <div className="lg:h-full sm:h-full w-full">
                 <img
@@ -95,7 +95,7 @@ class Features extends React.Component {
             <div
               className="grid justify-items-center grid-cols-1 lg:grid-cols-2 grid-flow-row lg:grid-rows-1 sm:ml-4 sm:mr-8 rounded-xl text-slate-600
               border-2 border-slate-400 bg-slate-100 drop-shadow-md auto-rows-auto
-              hover:drop-shadow-xl xl:h-5/6 md:h-full h-5/6 sm:h-2/3 sm:pb-48 sm:mt-4 md:pb-0 pb-44"
+              hover:drop-shadow-xl xl:h-5/6 md:h-full h-4/5 sm:h-2/3 sm:pb-48 sm:mt-4 md:pb-0 pb-44"
             >
               <div className="lg:h-full sm:h-full w-full">
                 <img

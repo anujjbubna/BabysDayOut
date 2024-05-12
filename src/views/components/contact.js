@@ -17,7 +17,7 @@ class Contact extends React.Component {
             action="https://formspree.io/f/xleqvbrd"
             method="POST"
           >
-            <div className="grid grid-cols-2 mx-auto lg:w-1/2 w-5/6 mt-14 xl:mt-8 lg:mt-2 2xl:mt-0 text-center">
+            <div className="grid grid-cols-2 mx-auto lg:w-1/2 w-5/6 mt-2 sm:mt-14 xl:mt-8 lg:mt-2 2xl:mt-0 text-center">
               <div className="m-auto w-4/5 ">
                 <label for="fname" className="w-full my-1 font-medium">
                   First Name
@@ -83,32 +83,17 @@ class Contact extends React.Component {
             <div className="w-16 m-auto bg-olive-green xl:mt-6 lg:mt-0 2xl:mt-0 text-white rounded-md px-1 text-center">
               <button>Submit</button>
             </div>
-            {/* <form className="pt-10 m-auto w-1/3 space-y-8" action="#" method="post">
-                            <label className="" for="name">Name:</label>
-                            <input type="text" id="name" name="name" required
-                                className="pl-3 py-1 mx-2 rounded-lg border-slate-300"></input>
-                            <br></br>
-                            <label for="email">Email:</label>
-                            <input type="email" id="email" name="email" required
-                                className="pl-3 py-1 mx-2 rounded-lg border-slate-300"></input>
-                            <br></br>
-                            <label for="message">Message:</label>
-                            <textarea id="message" name="message" required
-                                className="pl-3 py-1 mx-2 rounded-lg border-slate-300"></textarea>
-                            <br></br>
-                            <input type="submit" value="Submit"></input>
-                        </form> */}
           </form>
           <div
-            className="flex justify-center w-3/10 pt-16
+            className="flex justify-center w-3/10 pt-16 px-4
                                      text-xl hover:text-2xl hover:ease-in-out duration-300"
           >
-            <p className="float-left pl-4 py-1 text-olive-green font-medium drop-shadow-xl">
+            <p className="float-left py-1 text-olive-green font-medium drop-shadow-xl">
               Interested parents and caregivers, waitlist today!
             </p>
             <a href="https://shorturl.at/lpzX1" target="_blank">
               <button
-                className="bg-olive-green float-right px-3 ml-4 py-1
+                className="bg-olive-green float-right px-3 sm:ml-4 mt-2 sm:mt-0 py-1
                                         rounded drop-shadow-xl text-white"
               >
                 Register

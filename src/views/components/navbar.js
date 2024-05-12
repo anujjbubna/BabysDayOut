@@ -12,7 +12,7 @@ class Navbar extends React.Component {
                 </a>
                 {/* add hrefs to the buttons below */}
                 <nav className="md:ml-auto flex flex-wrap items-center mr-4
-                              text-white justify-center font-medium">
+                              text-white justify-center font-medium md:block hidden">
                     <a href="#home" className="text-base mr-5 hover:text-red-300 hover:ease-in-out duration-300">Home</a>
                     <a href="#product" className="text-base mr-5 hover:text-blue-400 hover:ease-in-out duration-300">Product</a>
                     <a href="#features" className="text-base mr-5 hover:text-red-300 hover:ease-in-out duration-300">Features</a>

@@ -4,7 +4,7 @@ class Hero extends React.Component {
     render() {
         return (
             <div id="home" className='w-screen h-screen snap-start shrink-0 snap-always'>
-                <div className="bg-cover bg-no-repeat bg-[url('./images/hero2.jpg')] bg-center h-screen w-full" >
+                <div className="bg-cover bg-no-repeat bg-[url('./images/perk.jpeg')] bg-center h-screen w-full" >
                     <div className="container mx-auto flex flex-col my-auto align-middle h-screen
                                         md:ml-2 lg:ml-16" >
                         <div className='my-auto  mx-auto lg:mx-0 w-10/12 lg:w-2/5 text-white'>

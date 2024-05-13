@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/BabysDayOut/static/css/main.812885f8.css",
+    "main.js": "/BabysDayOut/static/js/main.6029697c.js",
+    "index.html": "/BabysDayOut/index.html",
+    "main.812885f8.css.map": "/BabysDayOut/static/css/main.812885f8.css.map",
+    "main.6029697c.js.map": "/BabysDayOut/static/js/main.6029697c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.812885f8.css",
+    "static/js/main.6029697c.js"
+  ]
+}

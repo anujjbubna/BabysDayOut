@@ -1,7 +1,7 @@
 {
   "name": "babysdayout",
   "version": "1.0.0",
-  "homepage": "https://anujjbubna.github.io/BabysDayOut",
+  "homepage": "./",
   "description": "Startup project for connecting DayCare seekers to Stay-at-home parents willing to look after children",
   "main": "index.js",
   "scripts": {

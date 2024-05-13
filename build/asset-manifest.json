@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/BabysDayOut/static/css/main.812885f8.css",
-    "main.js": "/BabysDayOut/static/js/main.6029697c.js",
+    "main.css": "/BabysDayOut/static/css/main.ba56bd89.css",
+    "main.js": "/BabysDayOut/static/js/main.ddd97402.js",
     "index.html": "/BabysDayOut/index.html",
-    "main.812885f8.css.map": "/BabysDayOut/static/css/main.812885f8.css.map",
-    "main.6029697c.js.map": "/BabysDayOut/static/js/main.6029697c.js.map"
+    "main.ba56bd89.css.map": "/BabysDayOut/static/css/main.ba56bd89.css.map",
+    "main.ddd97402.js.map": "/BabysDayOut/static/js/main.ddd97402.js.map"
   },
   "entrypoints": [
-    "static/css/main.812885f8.css",
-    "static/js/main.6029697c.js"
+    "static/css/main.ba56bd89.css",
+    "static/js/main.ddd97402.js"
   ]
 }

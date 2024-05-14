@@ -30,7 +30,7 @@ class Features extends React.Component {
                 />
               </div>
 
-              <div className="h-[95%] grid grid-flow-row grid-rows-min xl:text-xl px-2 sm:px-5 text-left lg:pb-8 pb-0 overflow-y-auto ">
+              <div className="h-[95%] w-full text-wrap grid grid-flow-row grid-rows-min xl:text-xl px-2 sm:px-5 text-left lg:pb-8 pb-0 overflow-y-auto ">
                 <span className="text-lg md:text-xl sm:text-lg lg:text-xl 2xl:text-2xl mb-3 2xl:mb-0 pt-4 sm:pt-6 lg:pt-8 xl:pt-12 2xl:pt-8 md:pb-8 pb-0 2xl:pb-4 xl:pb-8 lg:pb-6 text-center ">
                   For Parents & Children
                 </span>
@@ -106,7 +106,7 @@ class Features extends React.Component {
                   className="w-full h-[18vh] lg:h-full lg:rounded-l-lg lg:rounded-r-none rounded-t-lg object-cover"
                 />
               </div>
-              <div className="h-[95%] grid grid-flow-row grid-rows-min px-2 sm:px-5 text-left lg:pb-8 pb-0 overflow-y-auto ">
+              <div className="h-[95%] w-full text-wrap grid grid-flow-row grid-rows-min px-2 sm:px-5 text-left lg:pb-8 pb-0 overflow-y-auto ">
                 <span className="text-lg md:text-xl sm:text-lg lg:text-xl 2xl:text-2xl mb-3 2xl:mb-0 pt-4 sm:pt-6 lg:pt-8 xl:pt-12 2xl:pt-8 md:pb-8 pb-0 2xl:pb-4 xl:pb-8 lg:pb-6 text-center xl:px-0 px-10">
                   For Caregivers
                 </span>

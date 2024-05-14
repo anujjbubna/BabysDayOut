@@ -40,7 +40,7 @@ class Features extends React.Component {
                       src="/assets/bricks.png"
                       className="h-6 w-6 ml-1 mr-4 mt-3"
                     ></img>
-                    <span className="">
+                    <span className="pr-1">
                       Standard government inspection for caregivers
                     </span>
                     <br></br>
@@ -107,7 +107,7 @@ class Features extends React.Component {
                 />
               </div>
               <div className="h-[95%] w-full text-wrap grid grid-flow-row grid-rows-min px-2 sm:px-5 text-left lg:pb-8 pb-0 overflow-y-auto ">
-                <span className="text-lg md:text-xl sm:text-lg lg:text-xl 2xl:text-2xl mb-3 2xl:mb-0 pt-4 sm:pt-6 lg:pt-8 xl:pt-12 2xl:pt-8 md:pb-8 pb-0 2xl:pb-4 xl:pb-8 lg:pb-6 text-center xl:px-0 px-10">
+                <span className="text-lg md:text-xl sm:text-lg lg:text-xl 2xl:text-2xl mb-3 2xl:mb-0 pt-4 sm:pt-6 lg:pt-8 xl:pt-12 2xl:pt-8 md:pb-8 pb-0 2xl:pb-4 xl:pb-8 lg:pb-6 text-center">
                   For Caregivers
                 </span>
                 <div className="grid grid-flow-row auto-row-min text-md md:text-lg sm:text-base lg:text-lg 2xl:text-xl overflow-y-auto">
@@ -140,9 +140,9 @@ class Features extends React.Component {
                   <span className="grid grid-flow-col auto-cols-auto sm:mb-0 mb-2">
                     <img
                       src="/assets/bricks.png"
-                      className="h-6 w-6 ml-1 mt-3"
+                      className="h-6 w-6 ml-1 mr-4 mt-3"
                     ></img>
-                    <span className="pr-1 pl-4">
+                    <span className="pr-1">
                       Calendar and Income management
                     </span>
                     <br></br>
@@ -150,17 +150,17 @@ class Features extends React.Component {
                   <span className="grid grid-flow-col auto-cols-auto sm:mb-0 mb-2">
                     <img
                       src="/assets/bricks.png"
-                      className="h-6 w-6 ml-1 mt-1"
+                      className="h-6 w-6 ml-1 mr-4 mt-3"
                     ></img>
-                    <span className="pr-6 pl-2">In-built messaging tool</span>
+                    <span className="pr-6">In-built messaging tool</span>
                     <br></br>
                   </span>
                   <span className="grid grid-flow-col auto-cols-auto sm:mb-0 mb-2">
                     <img
                       src="/assets/bricks.png"
-                      className="h-6 w-6 ml-1 mt-3"
+                      className="h-6 w-6 ml-1 mr-4 mt-3"
                     ></img>
-                    <span className="pr-1 pl-4">Integrated payment system</span>
+                    <span className="pr-1 sm:mb-4">Integrated payment system</span>
                     <br></br>
                   </span>
                 </div>

@@ -11,7 +11,7 @@ class Product extends React.Component {
                         <p className="m-auto w-3/4 h-full text-center text-slate-700
                                       pt-3 xxs:pt-8 xs:pt-8 md:pt-16 lg:pt-12 xl:pt-16 2xl:pt-16
                                       text-sm xxs:text-base xs:text-base md:text-xl lg:text-xl xl:text-xl 2xl:text-3xl
-                                      leading-relaxed xs:leading-loose md:leading-[2.5] lg:leading-extra-loose xl:leading-[3] 2xl:leading-[2.8]">
+                                      leading-[3.5vh] xs:leading-[3.5vh] md:leading-[4vh] lg:leading-[5vh] xl:leading-[6vh] 2xl:leading-[8vh]">
                             BabysDayOut is an opportunity to revolutionize the childcare system by utiziling
                             already available infrastructure.
                             Our digital platform connects parents with trusted, local caregivers

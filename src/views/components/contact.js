@@ -12,18 +12,21 @@ class Contact extends React.Component {
             Contact Us
           </h1>
           <form
-            className=" bg-gray-50 mx-auto 2xl:mt-8 xl:mt-10 md:mt-6 mt-4 pt-4 2xl:pt-4 xl:pt-10 h-3/5 w-3/4 lg:w-1/2 
-                                    rounded-lg drop-shadow-xl"
+            className=" bg-gray-50 mx-auto 2xl:mt-8 xl:mt-10 md:mt-6 mt-4 h-[60vh] lg:w-1/2 w-3/4 
+                                    rounded-lg drop-shadow-xl grid grid-rows-auto auto-rows-auto"
             action="https://formspree.io/f/xleqvbrd"
             method="POST"
           >
-            <div className="grid grid-cols-2 mx-auto lg:w-1/2 w-5/6 mt-2 sm:mt-14 xl:mt-8 lg:mt-2 2xl:mt-0 text-center">
-              <div className="m-auto w-4/5 text-sm xxs:mt-3">
-                <label for="fname" className="w-full my-1 font-medium">
+            <div className="grid grid-cols-2 mx-auto w-2/3 lg:w-[52%] mt-3 sm:mt-14 md:mt-10 xl:mt-2 lg:mt-2 2xl:mt-0 text-center">
+              <div className="m-auto  w-full
+                              text-sm md:text-lg lg:text-base xl:text-xl 2xl:text-2xl">
+                <label for="fname" className="w-full font-medium">
                   First Name
+                  <br></br>
                   <input
-                    className="rounded-md w-5/6 2xl:w-full text-xs text-center shadow-lg
-                               mt-1 xxs:mt-2 2xl:mt-1 mb-1 px-2 py-1 
+                    className="rounded-md text-center shadow-lg w-full
+                               text-xs md:text-sm lg:text-xs xl:text-base 2xl:text-lg
+                               mt-1 xxs:mt-2 2xl:mt-1 mb-1 px-2 py-1 -ml-2
                              border-olive-green border-solid border-2"
                     type="text"
                     id="fname"
@@ -33,12 +36,15 @@ class Contact extends React.Component {
                 </label>
                 {/* add input reference and create js script */}
               </div>
-              <div className="m-auto w-4/5 text-sm xxs:mt-3">
-                <label for="lname" className="w-full my-1 font-medium">
+              <div className="m-auto w-full
+                              text-sm md:text-lg lg:text-base xl:text-xl 2xl:text-2xl">
+                <label for="lname" className="w-full font-medium">
                   Last Name
+                  <br></br>
                   <input
-                    className="rounded-md w-5/6 2xl:w-full text-xs text-center shadow-lg
-                               mt-1 xxs:mt-2 2xl:mt-1 mb-1 px-2 py-1 
+                    className="rounded-md text-center shadow-lg w-full 
+                               text-xs md:text-sm lg:text-xs xl:text-base 2xl:text-lg
+                               mt-1 xxs:mt-2 2xl:mt-1 mb-1 px-2 py-1 ml-1
                              border-olive-green border-solid border-2"
                     type="text"
                     id="lname"
@@ -48,16 +54,18 @@ class Contact extends React.Component {
                 </label>
               </div>
             </div>
-            <div className="w-3/4 lg:w-2/3 px-2 lg:px-0 m-auto 
-                            mt-2 xxs:mt-4 xl:mt-4 lg:mt-2 2xl:mt-2 
-                            grid grid-flow-row auto-rows-auto text-sm">
+            <div className="w-3/4 lg:w-2/3 px-2 lg:px-0 m-auto  
+                            grid grid-flow-row auto-rows-auto \
+                            text-sm md:text-lg lg:text-base xl:text-xl 2xl:text-2xl">
               <label
                 for="email"
-                className="w-full lg:w-4/5 mx-auto my-1 font-medium text-center"
+                className="w-full lg:w-4/5 mx-auto font-medium text-center"
               >
                 Email address
+                <br></br>
                 <input
-                  className="rounded-md w-full lg:w-5/6 text-xs text-center shadow-lg
+                  className="rounded-md w-full text-center shadow-lg
+                             text-xs md:text-sm lg:text-xs xl:text-base 2xl:text-lg
                              mt-1 xxs:mt-2 2xl:mt-1 mb-1 px-2 py-1 
                            border-olive-green border-solid border-2"
                   type="email"
@@ -69,16 +77,18 @@ class Contact extends React.Component {
               {/* check for email input only */}
             </div>
             <div className="m-auto w-3/4 lg:w-2/3 px-2 lg:px-0 grid grid-flow-row auto-rows-auto justify-items-center 
-                            mt-2 xxs:mt-4 xl:mt-4 lg:mt-2 2xl:mt-2 text-sm">
+                            text-sm md:text-lg lg:text-base xl:text-xl 2xl:text-2xl">
               <label
                 for="query"
-                className="w-full lg:w-4/5 mt-1 mb-2 font-medium text-center"
+                className="w-full lg:w-4/5 mb-2 font-medium text-center"
               >
                 Your Query:
+                <br></br>
                 <textarea
-                  className="rounded-md w-full lg:w-5/6 xl:h-32 h-24 xxs:h-36 xs:h-40 mb-1 
+                  className="rounded-md w-full h-[20vh] mb-1 
+                             text-xs md:text-sm lg:text-xs xl:text-base 2xl:text-lg
                              mt-1 xxs:mt-2 2xl:mt-1
-                             px-2 py-1 text-xs shadow-lg resize-none
+                             px-2 py-1 shadow-lg resize-none
                            border-olive-green border-solid border-2"
                   type="text"
                   id="query"
@@ -88,7 +98,7 @@ class Contact extends React.Component {
               </label>
               {/* limit the query to 60 words */}
             </div>
-            <div className="w-16 m-auto bg-olive-green xl:mt-6 lg:mt-0 2xl:mt-0 text-white rounded-md px-1 text-center">
+            <div className="mb-10 md:py-1 w-16 m-auto bg-olive-green text-white rounded-md px-1 text-center">
               <button>Submit</button>
             </div>
           </form>

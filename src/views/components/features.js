@@ -16,17 +16,17 @@ class Features extends React.Component {
               Other than chocolates, of course :P
             </p>
           </div>
-          <div className="h-[80vh] grid justify-items-center grid-cols-2 auto-cols-auto sm:ml-8 ml-10 sm:mr-14 mr-10 pt-4 xl:pt-10">
+          <div className="h-[80vh] grid justify-items-center grid-rows-2 md:grid-cols-2 sm:ml-8 ml-10 sm:mr-14 mr-10 pt-4 xl:pt-10">
             <div
-              className="grid justify-items-center grid-cols-1 lg:grid-cols-2 grid-flow-row lg:grid-rows-1 sm:ml-8 sm:mr-4 rounded-xl text-slate-600
+              className="grid justify-items-center grid-cols-2 md:grid-cols-1 lg:grid-cols-2 md:grid-flow-row lg:grid-rows-1 sm:ml-8 sm:mr-4 rounded-xl text-slate-600
                                        border-2 border-slate-400 bg-slate-100 drop-shadow-md auto-rows-auto
-                                       hover:drop-shadow-xl  sm:mt-4 md:pb-0 h-[70vh]"
+                                       hover:drop-shadow-xl  sm:mt-4 md:pb-0 h-[35vh] md:h-[70vh]"
             >
               <div className="h-full w-full">
                 <img
                   alt="image"
                   src="/assets/parentchild.jpg"
-                  className="w-full h-[18vh] lg:h-full lg:rounded-l-lg lg:rounded-r-none rounded-t-lg object-cover"
+                  className="w-full h-full md:h-[18vh] lg:h-full lg:rounded-l-lg lg:rounded-r-none rounded-l-lg md:rounded-t-lg md:rounded-b-none object-cover"
                 />
               </div>
 
@@ -95,15 +95,15 @@ class Features extends React.Component {
               </div>
             </div>
             <div
-              className="grid justify-items-center grid-cols-1 lg:grid-cols-2 grid-flow-row lg:grid-rows-1 sm:ml-8 sm:mr-4 rounded-xl text-slate-600
+              className="grid justify-items-center grid-cols-2 md:grid-cols-1 lg:grid-cols-2 md:grid-flow-row lg:grid-rows-1 sm:ml-8 sm:mr-4 rounded-xl text-slate-600
               border-2 border-slate-400 bg-slate-100 drop-shadow-md auto-rows-auto
-              hover:drop-shadow-xl  sm:mt-4 md:pb-0 h-[70vh]"
+              hover:drop-shadow-xl  sm:mt-4 md:pb-0 h-[35vh] md:h-[70vh]"
             >
               <div className="h-full w-full">
                 <img
                   alt="image"
                   src="/assets/provider.jpg"
-                  className="w-full h-[18vh] lg:h-full lg:rounded-l-lg lg:rounded-r-none rounded-t-lg object-cover"
+                  className="w-full h-full md:h-[18vh] lg:h-full lg:rounded-l-lg lg:rounded-r-none rounded-l-lg md:rounded-t-lg md:rounded-b-none object-cover"
                 />
               </div>
               <div className="h-[95%] w-full text-wrap grid grid-flow-row grid-rows-min px-2 sm:px-5 text-left lg:pb-8 pb-0 overflow-y-auto ">

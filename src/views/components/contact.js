@@ -1,4 +1,12 @@
 import React from "react";
+import ReactGA from 'react-ga4';
+
+const handleRegisterButtonClick = () => {
+    ReactGA.event({
+        category: 'User',
+        action: 'Clicked Register Button'
+      });
+};
 
 class Contact extends React.Component {
   render() {
@@ -107,7 +115,7 @@ class Contact extends React.Component {
                                      hover:ease-in-out duration-300 mx-8 md:mr-4 lg:mr-0">
             <p className="text-center float-left py-1 text-olive-green font-medium drop-shadow-xl mr-1">Interested parents and caregivers, waitlist today!</p>
             <a href="https://shorturl.at/lpzX1" target="_blank"><button className="bg-olive-green float-right ml-1 px-3 py-1 md:mt-0 mt-2
-                                        rounded drop-shadow-xl text-white">
+                                        rounded drop-shadow-xl text-white" onClick={handleRegisterButtonClick}>
               Register
             </button></a>
           </div>
